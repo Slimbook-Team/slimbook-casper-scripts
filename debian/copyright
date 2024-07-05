@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: slimbook-casper-scripts
+Upstream-Contact: <dev@slimbook.es>
+Source: <https://slimbook.es>
+
+Files: *
+Copyright: 2024 Slimbook <dev@slimbook.es>
+License: GPL-3

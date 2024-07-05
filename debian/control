@@ -1,0 +1,17 @@
+Source: slimbook-casper-scripts
+Section: utils
+Priority: optional
+Maintainer: Slimbook <dev@slimbook.es>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+Homepage: https://slimbook.es
+
+Package: slimbook-casper-scripts
+Architecture: all
+Depends: casper
+Description: SlimbookOS casper scripts
+ Some SlimbookOS casper scripts that tune some live settings
+
+
+
