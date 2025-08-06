@@ -1,0 +1,29 @@
+#!/bin/sh
+
+PREREQ=""
+DESCRIPTION="SlimbookOS disable kwallet"
+
+prereqs()
+{
+       echo "$PREREQ"
+}
+
+case $1 in
+# get pre-requisites
+prereqs)
+       prereqs
+       exit 0
+       ;;
+esac
+
+. /scripts/casper-functions
+
+log_begin_msg "$DESCRIPTION"
+
+mkdir -p /root/etc/skel/.config
+    cat >>/root/etc/skel/.config/kwalletrc <<EOF
+[Wallet]
+Enabled=false
+EOF
+
+log_end_msg
