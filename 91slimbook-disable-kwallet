@@ -20,8 +20,9 @@ esac
 
 log_begin_msg "$DESCRIPTION"
 
-mkdir -p /root/etc/skel/.config
-    cat >>/root/etc/skel/.config/kwalletrc <<EOF
+#At this point, home dir already exists
+mkdir -p /root/home/$USERNAME/.config
+    cat >>/root/home/$USERNAME/.config/kwalletrc <<EOF
 [Wallet]
 Enabled=false
 EOF
