@@ -1,3 +1,9 @@
+slimbook-casper-scripts (24.1.1) noble; urgency=medium
+
+  * Fixed package (missing file)
+
+ -- Slimbook <dev@slimbook.es>  Thu, 14 Aug 2025 10:14:21 +0200
+
 slimbook-casper-scripts (24.1.0) noble; urgency=medium
 
   * Disable kwallet on live

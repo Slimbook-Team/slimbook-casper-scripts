@@ -1,1 +1,2 @@
 90slimbook-autologin /usr/share/initramfs-tools/scripts/casper-bottom/
+91slimbook-disable-kwallet /usr/share/initramfs-tools/scripts/casper-bottom/
