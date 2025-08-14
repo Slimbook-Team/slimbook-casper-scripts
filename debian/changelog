@@ -1,3 +1,9 @@
+slimbook-casper-scripts (24.1.2) noble; urgency=medium
+
+  * Skel is too late to fix kwallet, doing at home instead
+
+ -- Slimbook <dev@slimbook.es>  Thu, 14 Aug 2025 16:29:47 +0200
+
 slimbook-casper-scripts (24.1.1) noble; urgency=medium
 
   * Fixed package (missing file)
