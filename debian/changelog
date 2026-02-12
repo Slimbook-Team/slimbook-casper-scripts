@@ -1,3 +1,9 @@
+slimbook-casper-scripts (24.2.0) noble; urgency=medium
+
+  * Fixed sddm/gdm not using wayland by default
+
+ -- Slimbook <dev@slimbook.es>  Thu, 12 Feb 2026 14:47:15 +0100
+
 slimbook-casper-scripts (24.1.2) noble; urgency=medium
 
   * Skel is too late to fix kwallet, doing at home instead
