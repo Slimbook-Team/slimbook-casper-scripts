@@ -26,8 +26,9 @@ if [ -f $GDMCustomFile ]; then
     sed -i -r \
         -e "s/^#[ ]*AutomaticLoginEnable =.*\$/AutomaticLoginEnable=true/" \
         -e "s/^#[ ]*AutomaticLogin =.*\$/AutomaticLogin=$USERNAME/" \
-	-e "s/^#[ ]*TimedLoginEnable =.*\$/TimedLoginEnable=false/" \
+        -e "s/^#[ ]*TimedLoginEnable =.*\$/TimedLoginEnable=false/" \
         -e "s/^#[ ]*WaylandEnable=false\$/WaylandEnable=true/" \
+        -e "s/^.*WaylandEnable=false\$/WaylandEnable=true/" \
         $GDMCustomFile
 fi
 
@@ -39,6 +40,9 @@ if [ -f /root/usr/bin/sddm ]; then
 [Autologin]
 User=$USERNAME
 Session=$sddm_session
+
+[General]
+DisplayServer=wayland
 EOF
 fi
 
