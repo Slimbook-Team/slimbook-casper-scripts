@@ -1,3 +1,9 @@
+slimbook-casper-scripts (26.0~alpha0) resolute; urgency=medium
+
+  * just 26 release
+
+ -- Slimbook <dev@slimbook.es>  Sat, 28 Mar 2026 18:15:16 +0100
+
 slimbook-casper-scripts (24.2.0) noble; urgency=medium
 
   * Fixed sddm/gdm not using wayland by default
